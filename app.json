@@ -1,0 +1,28 @@
+{
+  "name": "Slackcloud",
+  "description": "Generates word clouds using Slack chat history",
+  "repository": "https://github.com/jasonrhaas/slackcloud",
+  "keywords": ["slack", "python", "wordcloud", "gitcoin"],
+  "env": {
+    "SLACK_AUTH": {
+      "description": "Bot User OAuth Access Token. It will begin 'with xoxb-'",
+      "value": "",
+      "required": "true"
+    },
+    "SLACK_TEAMID": {
+      "description": "Unique identifier for your slack workspace. See the readme for where to find this value.",
+      "value": "",
+      "required": "true"
+    },
+    "SLACK_CMD1_NAME": {
+      "description": "The name of the Slash Command you create for your slack app.",
+      "value": "wordcloud",
+      "required": "true"
+    },
+    "SLACK_CMD1_TOKEN": {
+      "description": "Your slack app verification token. This can be found in the Basic Information tab for your app.",
+      "value": "",
+      "required": "true"
+    }
+  }
+}

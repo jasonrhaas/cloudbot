@@ -42,3 +42,8 @@ export SLACK_CMD1_TOKEN='xxxx'
 ### Linux
 
 Installing **Pillow** on Linux can be a little bit tricky and depends on the distribution and OS packages.  See [Pillow install instructions](http://pillow.readthedocs.org/en/3.0.x/installation.html#linux-installation).
+
+
+### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
